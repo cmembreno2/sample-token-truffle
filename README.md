@@ -1,3 +1,94 @@
 # token-truffle
 Repository for the token complete project with truffe
 Note: configure the .env file
+
+Starting migrations...
+======================
+> Network name:    'ropsten_infura'
+> Network id:      3
+> Block gas limit: 0x7a1200
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x056377b13e59acf754e05307a5f626e9be3f2ffdb51b78a19f8ff7a92f707789
+   > Blocks: 0            Seconds: 64
+   > contract address:    0x3e1016718334520ba6517529F0e2df132aba795d
+   > block number:        11970772
+   > block timestamp:     1644940055
+   > account:             0x30782322f0e1C40f6a7F9C78A64da708c521188a
+   > balance:             4.9967901
+   > gas used:            160495
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0032099 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0032099 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'MyToken'
+   -------------------
+   > transaction hash:    0xce534b0eebafd883ee410b95c3123f5cf77d42b8f9a8e801968d2d2ff681d210
+   > Blocks: 1            Seconds: 60
+   > contract address:    0x243d6d17eE6793c05318Bf6Ce4Baa9ac0A59E952
+   > block number:        11970774
+   > block timestamp:     1644940150
+   > account:             0x30782322f0e1C40f6a7F9C78A64da708c521188a
+   > balance:             4.97399472
+   > gas used:            1094031
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02188062 ETH
+
+
+   Deploying 'KycContract'
+   -----------------------
+   > transaction hash:    0xbb5370cf2793f7f8d28dd20bc8a9373e8ab920d1532a4cd2c8a3dc654d9af247
+   > Blocks: 1            Seconds: 56
+   > contract address:    0xaA1a8F7B82118fe4d03a44345F02FAc6414094E2
+   > block number:        11970775
+   > block timestamp:     1644940214
+   > account:             0x30782322f0e1C40f6a7F9C78A64da708c521188a
+   > balance:             4.96344384
+   > gas used:            527544
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01055088 ETH
+
+
+   Deploying 'MyTokenSale'
+   -----------------------
+   > transaction hash:    0x48d14132d5609e43e5243cfbfca3694ddadc752d493a204b8b458e19a037d848
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x29ab7392DC8324B2f845444d7172BF46339a7d9B
+   > block timestamp:     1644940273
+   > account:             0x30782322f0e1C40f6a7F9C78A64da708c521188a
+   > balance:             4.94600258
+   > gas used:            872063
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01744126 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.04987276 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.05308266 ETH
+
+Ethers to buy : 0.00000000000000001 = 10MYT
